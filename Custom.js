@@ -168,3 +168,54 @@ $('.cross i').click(function(){
      })
 
    
+     ////////
+
+     document.getElementById('danger4').addEventListener("click", function(){
+      
+      const BeforeProduct = document.getElementById('ProductCount').innerText;
+      const ConvertBeforeProduct=parseFloat(BeforeProduct);
+      console.log(ConvertBeforeProduct)
+
+      const addOne = -01;
+      const AdditionProduct = addOne - ConvertBeforeProduct;
+     document.getElementById('ProductCount').innerText =  AdditionProduct;
+
+     })
+
+     document.getElementById('danger3').addEventListener("click", function(){
+      
+      const BeforeProduct = document.getElementById('ProductCount').innerText;
+      const ConvertBeforeProduct=parseFloat(BeforeProduct);
+      console.log(ConvertBeforeProduct)
+
+      const addOne = 01;
+      const AdditionProduct = addOne - ConvertBeforeProduct;
+     document.getElementById('ProductCount').innerText =  AdditionProduct;
+
+     })
+ document.getElementById('danger2').addEventListener("click", function(){
+      
+      const BeforeProduct = document.getElementById('ProductCount').innerText;
+      const ConvertBeforeProduct=parseFloat(BeforeProduct);
+      console.log(ConvertBeforeProduct)
+
+      const addOne = -1;
+      const AdditionProduct = addOne - ConvertBeforeProduct;
+     document.getElementById('ProductCount').innerText =  AdditionProduct;
+
+     })
+
+ document.getElementById('danger1').addEventListener("click", function(){
+      
+      const BeforeProduct = document.getElementById('ProductCount').innerText;
+      const ConvertBeforeProduct=parseFloat(BeforeProduct);
+      console.log(ConvertBeforeProduct)
+
+      const addOne = 01;
+      const AdditionProduct = addOne - ConvertBeforeProduct;
+     document.getElementById('ProductCount').innerText =  AdditionProduct;
+
+     })
+
+   
+     
