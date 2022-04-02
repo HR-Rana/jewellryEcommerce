@@ -1,0 +1,234 @@
+
+
+
+
+
+ul{
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+}
+ul .fa-cart-plus{
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+   margin-top: 10px;
+   color: $primary;
+   position: absolute;
+   right: -15px;
+   font-size: 20px;
+}
+
+
+.addBank{
+    cursor: pointer;
+}
+/* Banking Card Add */
+ 
+.Bank-Card-area{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    z-index: 5555;
+    display: none;
+}
+.Bank-Card-area .box{
+    background-color: rgb(246, 246, 246);
+    padding: 25px 0;
+}
+.Bank-Card-area h4{
+    margin-top: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.bank-card{
+    text-align: center;
+}
+.banking-img{
+    text-align: center
+}
+.banking-img{
+    width: ;
+    line-height: 30px;
+   
+}
+.bank-card select{
+    width: 46%;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.cardNumber{
+    display: flex;
+}
+.cardNumber .left{
+    width: 35%;
+}.cardNumber .left img{
+    width: 80%;
+    float: right;
+    overflow: hidden;
+    opacity: 75%;
+}
+
+
+.cardNumber .right{
+    width: 40%;
+    margin: 100px 0;
+    float: right;
+    overflow: hidden;
+}
+.cardn.right .right .fill{
+   float: right;
+   overflow: hidden;
+   text-align: center;
+}
+.right input{
+    width:90%;
+    margin: 10px;
+}
+.cardNumber #submit{
+    width: 45%;
+   
+    font-weight: 700;
+    text-align: center;
+    background-color: var(--primary);
+    margin: 10px auto;
+    color: white;
+}
+
+.Bank-Card-area .box{
+    position: relative;
+}
+.cross{
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--primary);
+}
+
+:root{
+    --primary:#d1b785;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+/* index.htm Shopping page area */
+
+.Shopping-page {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    padding-top: 120px;
+    overflow-y: scroll;
+    scroll-padding-top: 250px;
+    display: none;
+}
+
+.Shopping-page .flex-box {
+    background-color: ;
+    justify-content: space-between;
+}
+
+.Shopping-page .left-items {
+    width: 60%;
+    padding: 0px 15px;
+}
+
+.Shopping-page .left-items .card {
+    width: 100%;
+}
+
+.Shopping-page .card-body button{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.Shopping-page .left-items img {
+    width: 100%;
+    padding: 30px 15px;
+    height: 150px;
+}
+
+.Shopping-page .card-footer {
+    width: 100%;
+    font-size: 14px;
+
+}
+
+.Shopping-page .card-footer a {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    scroll-padding-top: 100px;
+    font-weight: 600;
+}
+.Shopping-page .card-footer a span{
+    font-weight: 600;
+}
+
+.Shopping-page .flex-box .right {
+    width: 40%;
+    padding: 50px 0;
+    background-color: rgb(242, 242, 242);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.Shopping-page .right-box{
+    width: 80%;
+    float: right;
+    overflow: hidden;
+}
+.Shopping-page .right-box{
+    padding: 10px 25px;
+}
+.Shopping-page .right-box li{
+    width: 100%;
+    position: relative;
+}
+.Shopping-page .right-box li span{
+    width: 80px;
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.Shopping-page .right-box  .successbtn{
+   display: flex;
+    overflow: hidden;
+}
+.Shopping-page .right-box button{
+  
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #d1b785;
+}
+.Shopping-page .right-box a button{
+   
+    background-color: rgb(172, 45, 45);
+}
