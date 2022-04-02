@@ -33,12 +33,12 @@ $('.cross i').click(function(){
 
 
 
-    $(".addCard").click(function(){
+    $(".ddCard").click(function(){
     $('section').hide();
     $(".Shopping-page").show(300);
      });
       $(".listed-product").click(function(){
-    $('section').hide();
+    $('section').toggle();
     $(".Shopping-page").show(300);
     $('').hide();
      });
@@ -48,3 +48,123 @@ $('.cross i').click(function(){
      });
 
 
+
+
+
+     document.getElementById('addCard').addEventListener("click", function(){
+
+      
+      const BeforeProduct = document.getElementById('ProductCount').innerText;
+      const ConvertBeforeProduct=parseFloat(BeforeProduct);
+      console.log(ConvertBeforeProduct)
+
+      const addOne = 01;
+      const AdditionProduct = addOne + ConvertBeforeProduct;
+     document.getElementById('ProductCount').innerText = "0" + AdditionProduct;
+
+     })
+
+   document.getElementById('addCard2').addEventListener("click", function(){
+
+      
+      const BeforeProduct = document.getElementById('ProductCount').innerText;
+      const ConvertBeforeProduct=parseFloat(BeforeProduct);
+      console.log(ConvertBeforeProduct)
+
+      const addOne = 01;
+      const AdditionProduct = addOne + ConvertBeforeProduct;
+     document.getElementById('ProductCount').innerText = "0" + AdditionProduct;
+
+     })
+
+   document.getElementById('addCard3').addEventListener("click", function(){
+
+      
+      const BeforeProduct = document.getElementById('ProductCount').innerText;
+      const ConvertBeforeProduct=parseFloat(BeforeProduct);
+      console.log(ConvertBeforeProduct)
+
+      const addOne = 01;
+      const AdditionProduct = addOne + ConvertBeforeProduct;
+     document.getElementById('ProductCount').innerText = "0" + AdditionProduct;
+
+     })
+
+   document.getElementById('addCard4').addEventListener("click", function(){
+
+      
+      const BeforeProduct = document.getElementById('ProductCount').innerText;
+      const ConvertBeforeProduct=parseFloat(BeforeProduct);
+      console.log(ConvertBeforeProduct)
+
+      const addOne = 01;
+      const AdditionProduct = addOne + ConvertBeforeProduct;
+     document.getElementById('ProductCount').innerText = "0" + AdditionProduct;
+
+     })
+
+   document.getElementById('addCard5').addEventListener("click", function(){
+
+      
+      const BeforeProduct = document.getElementById('ProductCount').innerText;
+      const ConvertBeforeProduct=parseFloat(BeforeProduct);
+      console.log(ConvertBeforeProduct)
+
+      const addOne = 01;
+      const AdditionProduct = addOne + ConvertBeforeProduct;
+     document.getElementById('ProductCount').innerText = "0" + AdditionProduct;
+
+     })
+
+   document.getElementById('addCard6').addEventListener("click", function(){
+
+      
+      const BeforeProduct = document.getElementById('ProductCount').innerText;
+      const ConvertBeforeProduct=parseFloat(BeforeProduct);
+      console.log(ConvertBeforeProduct)
+
+      const addOne = 01;
+      const AdditionProduct = addOne + ConvertBeforeProduct;
+     document.getElementById('ProductCount').innerText = "0" + AdditionProduct;
+
+     })
+
+   document.getElementById('addCard7').addEventListener("click", function(){
+
+      
+      const BeforeProduct = document.getElementById('ProductCount').innerText;
+      const ConvertBeforeProduct=parseFloat(BeforeProduct);
+      console.log(ConvertBeforeProduct)
+
+      const addOne = 01;
+      const AdditionProduct = addOne + ConvertBeforeProduct;
+     document.getElementById('ProductCount').innerText = "0" + AdditionProduct;
+
+     })
+
+   document.getElementById('addCard8').addEventListener("click", function(){
+
+      
+      const BeforeProduct = document.getElementById('ProductCount').innerText;
+      const ConvertBeforeProduct=parseFloat(BeforeProduct);
+      console.log(ConvertBeforeProduct)
+
+      const addOne = 01;
+      const AdditionProduct = addOne + ConvertBeforeProduct;
+     document.getElementById('ProductCount').innerText = "0" + AdditionProduct;
+
+     })
+ document.getElementById('addCard9').addEventListener("click", function(){
+
+      
+      const BeforeProduct = document.getElementById('ProductCount').innerText;
+      const ConvertBeforeProduct=parseFloat(BeforeProduct);
+      console.log(ConvertBeforeProduct)
+
+      const addOne = 01;
+      const AdditionProduct = addOne + ConvertBeforeProduct;
+     document.getElementById('ProductCount').innerText = "0" + AdditionProduct;
+
+     })
+
+   
