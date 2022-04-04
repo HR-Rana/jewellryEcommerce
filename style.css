@@ -67,7 +67,7 @@ nav .nav {
   width: 20%;
   font-size: 20px;
   text-transform: uppercase;
-  background-color: #d1b785;
+  background-color: ;
   transition: .4s;
   -webkit-transition: .4s;
   -moz-transition: .4s;
@@ -426,7 +426,12 @@ h3::after {
 
 .card-footer button {
   font-weight: 600;
-  background-color:#d1b785;
+  background-color:;
+  border-radius:15px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+  -ms-border-radius:15px;
+  -o-border-radius:15px;
 }
 
 .card-body button i {
@@ -556,6 +561,13 @@ h3::after {
 .discount-area .discount-product span {
   text-align: center;
 }
+.discount-area button{
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
 
 .discount-area .discount-product span {
   width: 100%;
@@ -608,6 +620,17 @@ h3::after {
   -webkit-box-shadow: 0px 0px 10px black;
   box-shadow: 0px 0px 10px black;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .expensive-area {
   padding: 50px 0;
