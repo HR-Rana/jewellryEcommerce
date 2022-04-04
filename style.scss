@@ -1,79 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lato:ital@0;1&family=League+Spartan:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&family=Satisfy&family=Source+Sans+Pro:wght@400;600;900&display=swap');
+
+
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 100px;
+    scroll-padding-top: 50px;
+    font-family: "Source Sans Pro", arial, sans-serif;
+
+}
+#body{
+    font-family: "Source Sans Pro", arial, sans-serif;
 }
 
 
 $primary:#d1b785;
-$secondary:#ffadf4;
+$secondary:#fff2f9;
 
 
 
+.active1 {
+    background-color: #d1b785;
+    padding: 5px 10px;
+}
 
 
 nav .nav-pills {
     padding: 0;
     margin: 0;
+    font-family: "Source Sans Pro", arial, sans-serif;
 }
 
 nav .nav {
     padding: 0;
     margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 
 
 
 
-.banner-area {
-    overflow: hidden;
-    margin-top: 100px;
-}
+// .banner-area {
+//     overflow: hidden;
+//     margin-top: 100px;
+//     background-image: url(images/New\ folder/pexels-pixabay-458766.jpg);
 
-.banner-area .left {
-    padding: 100px 50px;
-    width: 50%;
-    background-color: $primary;
-    align-items: center;
-    justify-content: center;
-}
+// }
 
-.banner-area .left h1 {
+// .banner-area .left {
+//     padding: 100px 50px;
+//     width: 50%;
 
-    color: white;
-    text-transform: uppercase;
-}
+//     align-items: center;
+//     justify-content: center;
+// }
 
-.banner-area .right {
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0px 0px 0px 100%;
-    -webkit-border-radius: 0px 0px 0px 100%;
-    -moz-border-radius: 0px 0px 0px 100%;
-    -ms-border-radius: 0px 0px 0px 100%;
-    -o-border-radius: 0px 0px 0px 100%;
-    background: url(images/logo.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+// .banner-area .left h1 {
 
-.banner-area .right .carousel {
-    width: 90%;
-}
+//     color: white;
+//     text-transform: uppercase;
+// }
 
-.banner-area .right .carousel img {
-    width: 70%;
-    height: 400px;
-    padding: 50px 30px;
-}
+// .banner-area .right {
+//     width: 50%;
+//     align-items: center;
+//     justify-content: center;
+//     border-radius: 0px 0px 0px 100%;
+//     -webkit-border-radius: 0px 0px 0px 100%;
+//     -moz-border-radius: 0px 0px 0px 100%;
+//     -ms-border-radius: 0px 0px 0px 100%;
+//     -o-border-radius: 0px 0px 0px 100%;
+//     background: url(images/logo.png);
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: cover;
+// }
 
-.banner-area .left a {
-    width: 30%;
-    margin: 25px 0;
-    text-transform: uppercase;
-}
+
+
+// .banner-area .right img {
+//     width: 70%;
+//     height: 400px;
+//     padding: 50px 30px;
+// }
+
+// .banner-area .left a {
+//     width: 30%;
+//     margin: 25px 0;
+//     text-transform: uppercase;
+// }
 
 
 
@@ -121,7 +135,7 @@ nav .nav {
 }
 
 .nav li a {
-    font-weight: 700;
+    font-weight: 400;
     color: $primary;
     position: relative;
 }
@@ -183,12 +197,49 @@ nav .nav {
 
 
 
+.collection-feature {
+    background-color: white;
+
+}
+
+.collection-feature .container {
+    background-color: #fff2f9;
+    padding: 50px 0px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.collection-feature .colmnDown {
+    width: 40%;
+    background-color: #fff2f9;
+}
+
+.collection-feature .right {
+    width: 60%;
+    background-color: #d1b785;
+}
+
+.collection-feature .colmnDown {
+    box-shadow: 0px 0px 5px black;
+}
+
+.collection-feature .colmnDown i {}
+
+.collection-feature .colmnDown h5 {}
+
+.collection-feature .colmnDown p {}
+
+
+
+
+
+
+
 .About-area {}
 
 .About-area h3 {
     text-align: left;
     padding: 15px;
-    color: white;
+    color: black;
     position: relative;
 }
 
@@ -196,7 +247,7 @@ nav .nav {
     content: "";
     width: 10%;
     height: 5px;
-    background-color: black;
+    background-color: $primary;
     position: absolute;
     left: 50px;
     bottom: 0;
@@ -204,11 +255,11 @@ nav .nav {
 
 .About-area .left {
     width: 50%;
-
+    background-color: #fff2f9;
 }
 
 .About-area .women img {
-    width: 80%;
+    width: 100%;
     padding: 50px 20px;
     position: relative;
 }
@@ -221,102 +272,10 @@ nav .nav {
     position: relative;
 }
 
-.About-area .left .left-img img {
-    width: 120px;
-    height: auto;
-    position: absolute;
-    top: 10%;
-    left: 5%;
-    animation-name: upDown;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-.About-area .left .righthand-img img {
-    width: 150px;
-    height: auto;
-    position: absolute;
-    top: 30%;
-    left: 45%;
-
-    animation-name: round;
-    animation-duration: 18s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-.About-area .left .tophead-img img {
-    width: 120px;
-    height: auto;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-
-
-    animation-name: upDown;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-@keyframes upDown {
-    0% {
-        transform: translateY(-10px);
-        -webkit-transform: translateY(-10px);
-        -moz-transform: translateY(-10px);
-        -ms-transform: translateY(-10px);
-        -o-transform: translateY(-10px);
-    }
-
-    50% {
-        transform: translateY(0px);
-        -webkit-transform: translateY(0px);
-        -moz-transform: translateY(0px);
-        -ms-transform: translateY(0px);
-        -o-transform: translateY(0px);
-    }
-
-    100% {
-        transform: translateY(-10px);
-        -webkit-transform: translateY(-10px);
-        -moz-transform: translateY(-10px);
-        -ms-transform: translateY(-10px);
-        -o-transform: translateY(-10px);
-    }
-}
-
-@keyframes round {
-    0% {
-        transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-    }
-
-    50% {
-        transform: rotate(360deg);
-        -webkit-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-    }
-
-    100% {
-        transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-    }
-}
-
 
 .About-area .right {
     width: 50%;
     padding: 50px 20px;
-    background-color: $primary;
     margin-bottom: 50px;
 }
 
@@ -371,14 +330,47 @@ h3::after {
     -o-transition: .6s;
 }
 
-.card {
-    margin: 15px 0;
+.Product-area .card:hover {
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+}
+
+.Product-area.card::after {
+    content: "New";
+    color: rgb(194, 18, 18);
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.Product-area .card button {
+    background-color: #d1b785;
+}
+
+.Product-area .card {
+    margin: 20px 0;
     transition: .5s;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
+    -webkit-transition: .5;
+    -moz-transition: .5;
+    -ms-transition: .5;
+    -o-transition: .5;
     cursor: pointer;
+    position: relative;
+}
+
+.Product-area .card::after {
+    content: "New";
+    color: rgb(194, 18, 18);
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
 }
 
 .card:hover {
@@ -450,7 +442,7 @@ h3::after {
 
 .pagesNav {
     text-align: center;
-    background-color: #ddd;
+    background-color: #fff2f9;
 }
 
 .pagesNav {
@@ -482,7 +474,7 @@ h3::after {
 
 .carousel-area {
     padding: 50px 0;
-    background-color: #ddd;
+    background-color: #fff2f9;
 }
 
 .carousel-area .item {
@@ -499,6 +491,10 @@ h3::after {
 
 .discount-area {
     padding: 50px 0;
+    background: url(images/New\ folder/fashion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .discount-area h3 {
@@ -608,7 +604,7 @@ h3::after {
 
 .expensive-area {
     padding: 50px 0;
-    background-color: #dddddddd;
+    background-color: $secondarydddd;
 }
 
 .expensive-area h3 {
@@ -620,7 +616,7 @@ h3::after {
 }
 
 .expensive-area .left {
-    background-color: #ddd;
+    background-color: #fff2f9;
     padding: 15px;
     transition: .7s;
     -webkit-transition: .7s;
@@ -640,7 +636,10 @@ h3::after {
 
 
 
-.threeD-carousel {}
+.threeD-carousel {
+    background: url(images/New\ folder/fashion.jpg);
+    background-size: cover;
+}
 
 .threeD-carousel {}
 
@@ -749,7 +748,7 @@ h3::after {
     margin: 10px 0;
     font-size: 18px;
     font-weight: 700;
-    color: var(--secondary);
+    color: #fff2f9;
 
 }
 
@@ -758,7 +757,7 @@ h3::after {
 
 
 .Satisfction-Reason {
-    ackground-color: #ddd;
+    ackground-color: #fff2f9;
     padding: 50px 0;
 }
 
@@ -789,7 +788,7 @@ h3::after {
     width: 96%;
     float: right;
     height: 520px;
-    background-color: #ddd;
+    background-color: #fff2f9;
     padding: 20px 10px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -847,9 +846,7 @@ header {
 
 
 
-Shopping page
-
-.Shopping-page{
+Shopping page .Shopping-page {
     background-color: white;
     background: green;
     width: 100%;
@@ -889,7 +886,8 @@ Shopping page
     font-weight: 400;
     scroll-padding-top: 100px;
 }
-.Shopping-page .card .btn-danger{
+
+.Shopping-page .card .btn-danger {
     padding: 0px 10px;
     display: none;
 }
@@ -897,14 +895,16 @@ Shopping page
 .Shopping-page .flex-box .right {
     width: 40%;
     padding: 50px 0;
-    background-color: #ddd;
+    background-color: #fff2f9;
 }
-.Shopping-page .right .Price-lists{
+
+.Shopping-page .right .Price-lists {
     width: 70%;
-   margin: 0 auto;
+    margin: 0 auto;
     background-color: green;
 }
-.Shopping-page .right .total{
+
+.Shopping-page .right .total {
     width: 100%;
     font-weight: 600;
     padding-bottom: 15px;
@@ -1043,7 +1043,7 @@ Shopping page
 
 
 .footer-area {
-    background-color: #ddd;
+    background-color: #fff2f9;
     padding: 25px 0;
     padding-top: 50px;
     overflow: hidden;
@@ -1103,7 +1103,7 @@ Shopping page
 .masenger i {
     width: 50px;
     height: 50px;
-    background-color: #ddd;
+    background-color: #fff2f9;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
